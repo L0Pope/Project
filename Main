@@ -1,1 +1,12 @@
-#start
+from tkinter import *
+
+def main():
+    window = Tk()
+    window.title("Dodge Game")
+    window.geometry("500x500")
+    window.eval('tk::PlaceWindow . center')
+    window.mainloop()
+
+
+if __name__ == "__main__":
+    main()
